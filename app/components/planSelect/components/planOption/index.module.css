@@ -1,4 +1,4 @@
-.root {
+.wrapper {
   display: flex;
   align-items: center;
   background: #F1F5FB;
@@ -7,12 +7,12 @@
   width: 100%;
 }
 
-.rootSelected {
+.wrapperSelected {
   border: 2px solid #0062F5;
   padding: calc(1rem - 2px);
 }
 
-.rootSelectedMostPopular {
+.wrapperSelectedMostPopular {
   border-top: none;
   padding-top: 1rem;
 }

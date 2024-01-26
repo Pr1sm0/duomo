@@ -22,7 +22,6 @@ export const Growth = (): ReactElement => {
     <section className={styles.root}>
       <div className={styles.wrapper}><Title>See your Spiritual Growth progress by Sep 17, 2024</Title>
         <Image
-          className={styles.buttonImage}
           src="/growth.svg"
           alt="Loader"
           width={342}

@@ -25,7 +25,7 @@ export const PlanOption = ({option, id, isSelected, handleSelect}: Props): React
       {option.isMostPopular &&
           <div className={`${styles.mostPopular} ${isSelected ? styles.mostPopularSelected : ''}`}>MOST POPULAR</div>}
       <div
-        className={`${styles.root} ${isSelected ? styles.rootSelected : ''} ${option.isMostPopular ? styles.noTopBorderRadius : ''} ${option.isMostPopular && isSelected ? styles.rootSelectedMostPopular : ''}`}>
+        className={`${styles.wrapper} ${isSelected ? styles.wrapperSelected : ''} ${option.isMostPopular ? styles.noTopBorderRadius : ''} ${option.isMostPopular && isSelected ? styles.wrapperSelectedMostPopular : ''}`}>
         <input type="radio" id={`planChoice${option.id}${id}`} name={id} value={option.id} className={styles.input}
                onChange={handleClick} checked={isSelected}/>
         <label htmlFor={`planChoice${option.id}`} className={styles.label}>
