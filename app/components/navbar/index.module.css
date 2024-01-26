@@ -1,0 +1,31 @@
+.root {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  position: fixed;
+  top: 0;
+  background: white;
+}
+
+.button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  width: fit-content;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.button:active {
+  background: #F1F5FB;
+}
+
+.buttonImage {
+  display: block;
+}
+
+.appName {
+  color: black
+}

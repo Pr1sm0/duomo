@@ -1,0 +1,23 @@
+.root {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 24px;
+}
+
+.root:not(:last-child) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.description {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.percentage {
+  text-align: right;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+}

@@ -1,0 +1,16 @@
+.root {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 12px 24px;
+}
+
+.root:not(:last-child) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.description {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}

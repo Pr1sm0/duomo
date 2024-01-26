@@ -1,0 +1,32 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  background: #F1F5FB;
+}
+
+.root:has(> .input:focus) {
+  background: white;
+  border: 2px solid #222B38;
+  margin: -2px;
+}
+
+.label {
+  color: #0062F5;
+  font-family: "Fixel Text", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.input {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+}
